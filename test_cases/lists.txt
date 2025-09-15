@@ -1,0 +1,10 @@
+LIST A = [1,2,3,4,5,6];
+LIST B = [];
+PRINT(B);
+PRINT(A.slice(0, 2));
+B.push("Get Ready!");
+B.push("Done!");
+PRINT(B.index(1));
+STRING C = "Well " + B.pop(1);
+PRINT(C);
+PRINT(A[7]);

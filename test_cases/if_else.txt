@@ -1,0 +1,38 @@
+BOOL isRaining = FALSE;
+BOOL isSnowing = TRUE;
+INT temperature = 0;
+
+IF (isRaining == TRUE):
+{
+     IF (temperature > 45): 
+     { 
+         PRINT("Wear lightweight raincoat");
+     }
+     ELSEIF (temperature == 45): 
+     {
+         PRINT ("Wear lightweight raincoat");
+     }
+     ELSE: 
+     {
+         PRINT ("Wear fleece and raincoat");
+     }  
+}
+ELSEIF (isSnowing != FALSE):
+{
+    IF (temperature > 20):
+    {
+        PRINT ("Wear soft shell jacket") ;
+    }
+    ELSEIF (temperature >= 0): 
+    {
+        PRINT("Wear down jacket");
+    }
+    ELSE:
+    {
+        PRINT ("Wear base layers and down jacket");
+    }
+}
+ELSE:
+{
+    PRINT ("It is hard to come up with interesting examples");
+}
